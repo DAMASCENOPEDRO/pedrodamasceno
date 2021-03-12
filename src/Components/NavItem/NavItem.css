@@ -1,0 +1,57 @@
+.nav-item-container-wrapper{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(40px,min-content);
+    border-bottom: 1px solid black;
+    position: relative;
+    box-sizing: border-box;
+    font-family :Helvetica, Helvetica, Arial, sans-serif;
+    font-feature-settings: "liga", "lnum";
+    background-color: white;
+}
+.nav-item-container-wrapper:hover{
+    /* color: lightgrey; */
+}
+.item-heading{
+    box-sizing: border-box;
+    padding-top: 0.5rem;
+    display: flex;
+    font-family :Helvetica, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    /* color: #8c8c8c; */
+}
+.item-date{
+    font-family :Helvetica, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    box-sizing: border-box;
+    padding-right: 1rem;
+}
+.item-para{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    /* position: absolute;
+    right: 1rem;
+    font-family :Helvetica, Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    top: 16%; */
+}
+.nav-item-container-wrapper p{
+    /* font-size: 100px; */
+    /* font: inherit; */
+    /* vertical-align: baseline; */
+    /* font-weight: 300; */
+ 
+}
+
+.nav-item-container-wrapper h2{
+
+}
+.active{
+    color: red;
+}
