@@ -72,6 +72,9 @@
     font-size: 16px;
     /* position: relative; */
 }
+.left-nav-footer a{
+    text-decoration: none;
+}
 
 .projectsContent {
     grid-area: projectsContent;
