@@ -85,8 +85,9 @@
 
 .mobile-project-container-wrapper .awssld {
     width: 100%;
-    height: 270px;
-    --slider-height-percentage: 60%;
+    height: auto;
+    max-width: 550px;
+    --slider-height-percentage: 80%;
     --slider-transition-duration: 200ms;
     --organic-arrow-thickness: 20px;
     --organic-arrow-border-radius: 30px;

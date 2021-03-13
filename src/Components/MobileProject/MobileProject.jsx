@@ -35,7 +35,7 @@ function MobileProject(props) {
 					<div className="mobile-project-container-content-left-img">
 						{
 							props.project.projectimages.url === props.project.projectimages.second.url && props.project.projectimages.url === props.project.projectimages.third.url ?
-								<ImageCarousel Size={{ width: "100%", height: "270px" }} projectId={props.project.title[0].text} projectimages={props.project.projectimages} /> :
+								<ImageCarousel Size={{ width: "100%", height: "auto", maxWidth: "550px" }} projectId={props.project.title[0].text} projectimages={props.project.projectimages} /> :
 								<AwesomeSlider
 									organicArrows={false}
 									bullets={false}

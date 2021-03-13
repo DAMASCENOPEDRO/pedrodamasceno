@@ -12,7 +12,11 @@ function ImageCarousel(props) {
 				<div className="carousel-item active">
 					<img
 						className="d-block"
-						style={{ width: `${props.Size.width}`, height: `${props.Size.height}`, objectFit: "fill" }}
+						style={{ 
+							width: `${props.Size.width}`, 
+							height: `${props.Size.height}`, 
+							maxWidth: `${props.Size.maxWidth}`,
+							objectFit: "fill" }}
 						src={props.projectimages.url}
 						alt="First slide"
 					/>
