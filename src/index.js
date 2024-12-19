@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom'
+
+window.location.href = "https://www.instagram.com/pedrose";
+
 ReactDOM.render(
   <BrowserRouter>
   <React.StrictMode>
